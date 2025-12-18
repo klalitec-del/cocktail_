@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/all";
-import useMediaQuery from "use-media-query-hook";
+import { useMediaQuery } from "use-media";
 
 const Hero = () => {
   const videoRef = useRef();
